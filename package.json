@@ -1,0 +1,21 @@
+{
+  "name": "ifa",
+  "version": "1.0.0",
+  "description": "Portal introdutório sobre Ifá, sua história, conceitos, Odù e Orúnmìlà",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build required'",
+    "lint": "echo 'No linter configured'"
+  },
+  "keywords": [
+    "ifa",
+    "yoruba",
+    "cultura"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
