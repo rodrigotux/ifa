@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal introdutório sobre Ifá, sua história, conceitos, Odù e Orúnmìlà.">
+  <title>Ifá — Sabedoria e Tradição</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#inicio">IFÁ<span>•</span></a>
+      <button class="menu-btn" aria-label="Abrir menu">☰</button>
+      <nav id="menu">
+        <a href="#inicio">Início</a>
+        <a href="#historia">História</a>
+        <a href="#conceitos">Conceitos</a>
+        <a href="#odu">Odù</a>
+        <a href="#orunmila">Orúnmìlà</a>
+        <a href="#biblioteca">Biblioteca</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">SABEDORIA • TRADIÇÃO • MEMÓRIA</p>
+        <h1>IFÁ</h1>
+        <p class="hero-text">Um portal introdutório para conhecer a tradição de Ifá, seus conceitos, sua história e a riqueza dos Odù.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#historia">Explorar</a>
+          <a class="btn secondary" href="#odu">Conhecer os Odù</a>
+        </div>
+      </div>
+      <div class="scroll">↓ role para descobrir</div>
+    </section>
+
+    <section id="historia" class="section">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">01 — ORIGENS</p>
+          <h2>Uma tradição de conhecimento</h2>
+        </div>
+        <div>
+          <p>Ifá é um sistema tradicional de conhecimento e divinação associado ao povo iorubá da África Ocidental. Sua transmissão envolve versos, histórias, ensinamentos éticos e interpretações preservadas por gerações.</p>
+          <p>O conhecimento de Ifá está profundamente relacionado a Orúnmìlà e é tradicionalmente transmitido por especialistas preparados dentro de suas comunidades.</p>
+          <div class="quote">“Conhecer é também aprender a ouvir, lembrar e agir com sabedoria.”</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="conceitos" class="section dark">
+      <div class="container">
+        <p class="eyebrow">02 — FUNDAMENTOS</p>
+        <h2>Conceitos essenciais</h2>
+        <div class="cards">
+          <article class="card"><span>01</span><h3>Odù</h3><p>Conjuntos de signos, versos e narrativas que formam uma parte central da tradição de Ifá.</p></article>
+          <article class="card"><span>02</span><h3>Orúnmìlà</h3><p>Figura central associada à sabedoria e ao conhecimento de Ifá na tradição iorubá.</p></article>
+          <article class="card"><span>03</span><h3>Ìwà</h3><p>Conceito relacionado ao caráter e à conduta, ressaltando a importância da ética na vida.</p></article>
+          <article class="card"><span>04</span><h3>Àṣẹ</h3><p>Termo iorubá com sentidos relacionados ao poder, autoridade e capacidade de realização.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="odu" class="section">
+      <div class="container">
+        <p class="eyebrow">03 — ODÙ IFÁ</p>
+        <div class="section-heading">
+          <div><h2>Os Odù</h2><p>Conheça alguns nomes tradicionalmente associados ao sistema.</p></div>
+          <input id="searchOdu" type="search" placeholder="Pesquisar Odù...">
+        </div>
+        <div id="oduGrid" class="odu-grid"></div>
+      </div>
+    </section>
+
+    <section id="orunmila" class="section highlight">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">04 — FIGURA CENTRAL</p>
+          <h2>Orúnmìlà</h2>
+        </div>
+        <div>
+          <p>Orúnmìlà ocupa um lugar de destaque na tradição de Ifá e é associado ao conhecimento, à orientação e à compreensão dos acontecimentos da vida.</p>
+          <p>As narrativas relacionadas a ele fazem parte de uma tradição oral extensa, na qual conhecimento, memória e ensinamentos sobre o caráter são transmitidos entre gerações.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="biblioteca" class="section">
+      <div class="container">
+        <p class="eyebrow">05 — ESTUDO</p>
+        <h2>Biblioteca introdutória</h2>
+        <div class="library">
+          <article><div class="icon">✦</div><h3>Glossário</h3><p>Termos básicos para começar a estudar a tradição.</p><button class="learn" data-text="Glossário: Ifá, Odù, Orúnmìlà, Ìwà e Àṣẹ são alguns dos termos importantes para uma introdução ao tema.">Abrir conteúdo</button></article>
+          <article><div class="icon">◈</div><h3>História</h3><p>Uma visão geral das raízes iorubás e da transmissão do conhecimento.</p><button class="learn" data-text="O conhecimento de Ifá possui uma longa tradição oral e cultural, especialmente ligada às sociedades iorubás da África Ocidental.">Abrir conteúdo</button></article>
+          <article><div class="icon">◇</div><h3>Estudo dos Odù</h3><p>Comece reconhecendo nomes e conceitos antes de avançar.</p><button class="learn" data-text="Os Odù são estudados por meio de versos, narrativas e interpretações dentro de contextos tradicionais específicos.">Abrir conteúdo</button></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <section id="contato" class="section contact">
+      <div class="container contact-wrap">
+        <div>
+          <p class="eyebrow">06 — CONTATO</p>
+          <h2>Converse com o responsável</h2>
+          <p>Entre em contato para saber mais sobre Ifá, tradição, orientação e atendimentos.</p>
+          <p class="contact-role"><strong>Olówó de Ifá &amp; Olóyè</strong></p>
+          <p>Este espaço foi criado para aproximar pessoas interessadas em Ifá .</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-item"><span>WhatsApp</span><strong>+55 (21) 97911-4878</strong></div>
+          <div class="contact-item"><span>Instagram</span><strong>@seuinstagram</strong></div>
+          <div class="contact-item"><span>E-mail</span><strong>ifaomiretohunla@gmail.com</strong></div>
+          <div class="contact-item"><span>Atendimento</span><strong>Agendamento prévio</strong></div>
+          <div class="contact-actions">
+            <a class="btn primary" href="#" onclick="return false;">WhatsApp</a>
+            <a class="btn outline-dark" href="#" onclick="return false;">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <footer>
+    <div class="container footer">
+      <div><div class="logo">IFÁ<span>•</span></div><p>Conhecimento, tradição e memória.</p></div>
+      <p>Conteúdo introdutório • 2026</p>
+    </div>
+  </footer>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-box">
+      <button id="closeModal" class="close">×</button>
+      <h3 id="modalTitle">Conteúdo</h3>
+      <p id="modalText"></p>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
